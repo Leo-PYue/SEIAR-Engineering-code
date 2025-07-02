@@ -18,3 +18,11 @@ pip install -r requirements.txt
 ```
 python SEIARModel.py
 ```
+
+### Datsets
+@article{zubiaga2016pheme,
+  title={PHEME dataset of rumours and non-rumours},
+  author={Zubiaga, Arkaitz and Wong Sak Hoi, Geraldine and Liakata, Maria and Procter, Rob},
+  year={2016},
+  publisher={University of Warwick, Department of Computer Science}
+}
