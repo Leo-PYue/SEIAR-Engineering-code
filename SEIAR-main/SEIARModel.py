@@ -21,7 +21,7 @@ class InfoSpreading(object):
         self.T = 0
         self.kexi = 0
         self.timeStep = 50
-        self.repeatNum = 10
+        self.repeatNum = 100
         self.state = np.zeros((self.nodesNum, 2), int)
         self.imageDataSEIRA = np.zeros((self.timeStep, 25), float)
         self.imageDataSIS = np.zeros((self.timeStep, 2), float)
@@ -597,7 +597,7 @@ class InfoSpreading(object):
         ax.legend(labels=[r"S", r"E$_1$", r"E$_2$", r"I", r"A", r"R"], ncol=1,
                   fontsize=19)
         plt.xlabel("t", fontsize=25)
-        plt.ylabel("¦Ñ", fontsize=25)
+        plt.ylabel("Â¦Ã‘", fontsize=25)
         plt.xticks(fontsize=20)
         plt.yticks(fontsize=20)
         plt.tick_params(width=1.5)
@@ -621,7 +621,7 @@ class InfoSpreading(object):
         ax.plot(t, yvalue1, color='#66CC00', linestyle='-', linewidth=1, marker='p', markersize=8)
         ax.legend(labels=["S", "I"], ncol=1, fontsize=20)
         plt.xlabel("t", fontsize=25)
-        plt.ylabel("¦Ñ", fontsize=25)
+        plt.ylabel("Â¦Ã‘", fontsize=25)
         plt.xticks(fontsize=20)
         plt.yticks(fontsize=20)
         plt.tick_params(width=1.5)
@@ -648,7 +648,7 @@ class InfoSpreading(object):
         ax.plot(t, yvalue2, color='#E5CCFF', linestyle='-', linewidth=1, marker='o', markersize=8)
         ax.legend(labels=["S", "I", "R"], ncol=1, fontsize=20)
         plt.xlabel("t", fontsize=25)
-        plt.ylabel("¦Ñ", fontsize=25)
+        plt.ylabel("Â¦Ã‘", fontsize=25)
         plt.xticks(fontsize=20)
         plt.yticks(fontsize=20)
         plt.tick_params(width=1.5)
@@ -678,7 +678,7 @@ class InfoSpreading(object):
         ax.plot(t, yvalue3, color='#E5CCFF', linestyle='-', linewidth=1, marker='o', markersize=8)
         ax.legend(labels=["S", "E", "I", "R"], ncol=1, fontsize=20)
         plt.xlabel("t", fontsize=25)
-        plt.ylabel("¦Ñ", fontsize=25)
+        plt.ylabel("Â¦Ã‘", fontsize=25)
         plt.xticks(fontsize=20)
         plt.yticks(fontsize=20)
         plt.tick_params(width=1.5)
